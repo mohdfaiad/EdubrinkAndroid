@@ -1,0 +1,3 @@
+.\assets\internal\Som_Splash.mp3
+.\assets\internal\Som_Acerto.mp3
+.\assets\internal\Som_Erro.mp3

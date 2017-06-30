@@ -1,0 +1,72 @@
+inherited FormAtividade_XLgXhdpiTb: TFormAtividade_XLgXhdpiTb
+  ClientHeight = 1255
+  ClientWidth = 800
+  DesignerMasterStyle = 0
+  inherited GridPanelLayout1: TGridPanelLayout
+    Size.Width = 800.000000000000000000
+    Size.Height = 275.000000000000000000
+    inherited Rectangle1: TRectangle
+      Size.Width = 380.000000000000000000
+      Size.Height = 117.500000000000000000
+      inherited BtnOpcao1: TButton
+        Size.Width = 380.000000000000000000
+        Size.Height = 117.500000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited Rectangle2: TRectangle
+      Size.Width = 380.000000000000000000
+      Size.Height = 117.500000000000000000
+      inherited BtnOpcao2: TButton
+        Size.Width = 380.000000000000000000
+        Size.Height = 117.500000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited Rectangle3: TRectangle
+      Size.Width = 380.000000000000000000
+      Size.Height = 117.500000000000000000
+      inherited BtnOpcao3: TButton
+        Size.Width = 380.000000000000000000
+        Size.Height = 117.500000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited Rectangle4: TRectangle
+      Size.Width = 380.000000000000000000
+      Size.Height = 117.500000000000000000
+      inherited BtnOpcao4: TButton
+        Size.Width = 380.000000000000000000
+        Size.Height = 117.500000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+  inherited ImgFigura: TImage
+    Size.Width = 780.000000000000000000
+    Size.Height = 798.000000000000000000
+  end
+  inherited TxtCategoria: TText
+    Size.Width = 780.000000000000000000
+    TextSettings.Font.Size = 25.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited TxtParabens: TText
+    Position.Y = 895.000000000000000000
+    Size.Width = 780.000000000000000000
+    Size.Height = 75.000000000000000000
+    TextSettings.Font.Size = 25.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    inherited Rectangle5: TRectangle
+      Position.Y = 36.000000000000000000
+      Size.Width = 780.000000000000000000
+      Size.Height = 39.000000000000000000
+      inherited BtnJogarDenovo: TButton
+        Size.Width = 780.000000000000000000
+        Size.Height = 39.000000000000000000
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+end

@@ -1,0 +1,55 @@
+inherited FormPrincipal_XLgXhdpiTb: TFormPrincipal_XLgXhdpiTb
+  ClientHeight = 1255
+  ClientWidth = 800
+  DesignerMasterStyle = 0
+  inherited Label1: TLabel
+    Size.Width = 780.000000000000000000
+    Size.Height = 125.000000000000000000
+    TextSettings.Font.Size = 35.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+  end
+  inherited GridPanelLayout1: TGridPanelLayout
+    Size.Width = 800.000000000000000000
+    Size.Height = 940.000000000000000000
+    inherited RctPersonagem: TRectangle
+      Size.Width = 380.000000000000000000
+      Size.Height = 450.000000000000000000
+      inherited BtnPersonagem: TCornerButton
+        Size.Width = 380.000000000000000000
+        Size.Height = 450.000000000000000000
+        TextSettings.Font.Size = 30.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited RctCores: TRectangle
+      Size.Width = 380.000000000000000000
+      Size.Height = 450.000000000000000000
+      inherited BtnCores: TCornerButton
+        Size.Width = 380.000000000000000000
+        Size.Height = 450.000000000000000000
+        TextSettings.Font.Size = 30.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited RctBrinquedo: TRectangle
+      Size.Width = 380.000000000000000000
+      Size.Height = 450.000000000000000000
+      inherited BtnBrinquedo: TCornerButton
+        Size.Width = 380.000000000000000000
+        Size.Height = 450.000000000000000000
+        TextSettings.Font.Size = 30.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+    inherited RctMateriais: TRectangle
+      Size.Width = 380.000000000000000000
+      Size.Height = 450.000000000000000000
+      inherited BtnMateriasEscolares: TCornerButton
+        Size.Width = 380.000000000000000000
+        Size.Height = 450.000000000000000000
+        TextSettings.Font.Size = 30.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+end

@@ -1,0 +1,233 @@
+object FormPrincipal: TFormPrincipal
+  Left = 0
+  Top = 0
+  ClientHeight = 557
+  ClientWidth = 350
+  Fill.Color = claDarkcyan
+  Fill.Kind = Solid
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnKeyUp = FormKeyUp
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Align = Top
+    StyledSettings = []
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 100.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 100.000000000000000000
+    Size.Width = 330.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 22.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claWhite
+    TextSettings.HorzAlign = Center
+    Text = 'SELECIONE UM JOGO'
+    object ShadowEffect5: TShadowEffect
+      Distance = 3.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+    end
+  end
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Client
+    Margins.Bottom = 80.000000000000000000
+    Size.Width = 350.000000000000000000
+    Size.Height = 326.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    ColumnCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = RctPersonagem
+        Row = 0
+      end
+      item
+        Column = 1
+        Control = RctCores
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = RctBrinquedo
+        Row = 1
+      end
+      item
+        Column = 1
+        Control = RctMateriais
+        Row = 1
+      end>
+    RowCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        SizeStyle = Auto
+      end
+      item
+        SizeStyle = Auto
+      end>
+    object RctPersonagem: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 155.000000000000000000
+      Size.Height = 143.000000000000000000
+      Size.PlatformDefault = False
+      object BtnPersonagem: TCornerButton
+        Align = Client
+        StyledSettings = [FontColor]
+        Sides = [Top, Left, Bottom, Right]
+        Size.Width = 155.000000000000000000
+        Size.Height = 143.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'DESCUBRA O PERSONAGEM'
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.WordWrap = True
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        OnClick = BtnPersonagemClick
+      end
+      object ShadowEffect1: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.300000011920929000
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+    end
+    object RctCores: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 155.000000000000000000
+      Size.Height = 143.000000000000000000
+      Size.PlatformDefault = False
+      object ShadowEffect2: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.300000011920929000
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+      object BtnCores: TCornerButton
+        Align = Client
+        StyledSettings = [FontColor]
+        Sides = [Top, Left, Bottom, Right]
+        Size.Width = 155.000000000000000000
+        Size.Height = 143.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'CornerButton1Style1'
+        TabOrder = 0
+        Text = 'JOGO DAS CORES'
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.WordWrap = True
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        OnClick = BtnCoresClick
+      end
+    end
+    object RctBrinquedo: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 155.000000000000000000
+      Size.Height = 143.000000000000000000
+      Size.PlatformDefault = False
+      object ShadowEffect3: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.300000011920929000
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+      object BtnBrinquedo: TCornerButton
+        Align = Client
+        StyledSettings = [FontColor]
+        Sides = [Top, Left, Bottom, Right]
+        Size.Width = 155.000000000000000000
+        Size.Height = 143.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'CornerButton1Style1'
+        TabOrder = 0
+        Text = 'DESCUBRA O BRINQUEDO'
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.WordWrap = True
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        OnClick = BtnBrinquedoClick
+      end
+    end
+    object RctMateriais: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 155.000000000000000000
+      Size.Height = 143.000000000000000000
+      Size.PlatformDefault = False
+      object ShadowEffect4: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.300000011920929000
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+      object BtnMateriasEscolares: TCornerButton
+        Align = Client
+        StyledSettings = [FontColor]
+        Sides = [Top, Left, Bottom, Right]
+        Size.Width = 155.000000000000000000
+        Size.Height = 143.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'CornerButton1Style1'
+        TabOrder = 0
+        Text = 'DESCUBRA OS MATERIAIS ESCOLARES'
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.WordWrap = True
+        XRadius = 3.000000000000000000
+        YRadius = 3.000000000000000000
+        OnClick = BtnMateriasEscolaresClick
+      end
+    end
+  end
+end

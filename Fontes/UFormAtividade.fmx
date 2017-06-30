@@ -1,0 +1,326 @@
+object FormAtividade: TFormAtividade
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 557
+  ClientWidth = 350
+  Fill.Color = claDarkcyan
+  Fill.Kind = Solid
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Client
+    Size.Width = 350.000000000000000000
+    Size.Height = 231.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    ColumnCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = Rectangle1
+        Row = 0
+      end
+      item
+        Column = 1
+        Control = Rectangle2
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = Rectangle3
+        Row = 1
+      end
+      item
+        Column = 1
+        Control = Rectangle4
+        Row = 1
+      end>
+    RowCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end>
+    object Rectangle1: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 155.000000000000000000
+      Size.Height = 95.500000000000000000
+      Size.PlatformDefault = False
+      object BtnOpcao1: TButton
+        Align = Client
+        StyledSettings = [FontColor]
+        Size.Width = 155.000000000000000000
+        Size.Height = 95.500000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'OP'#199#195'O 1'
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.WordWrap = True
+        OnClick = BtnOpcao1Click
+      end
+      object ShadowEffect1: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.300000011920929000
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+    end
+    object Rectangle2: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 155.000000000000000000
+      Size.Height = 95.500000000000000000
+      Size.PlatformDefault = False
+      object BtnOpcao2: TButton
+        Align = Client
+        StyledSettings = [FontColor]
+        Size.Width = 155.000000000000000000
+        Size.Height = 95.500000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'OP'#199#195'O 2'
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.WordWrap = True
+        OnClick = BtnOpcao2Click
+      end
+      object ShadowEffect2: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.300000011920929000
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+    end
+    object Rectangle3: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 155.000000000000000000
+      Size.Height = 95.500000000000000000
+      Size.PlatformDefault = False
+      object BtnOpcao3: TButton
+        Align = Client
+        StyledSettings = [FontColor]
+        Size.Width = 155.000000000000000000
+        Size.Height = 95.500000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'OP'#199#195'O 3'
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.WordWrap = True
+        OnClick = BtnOpcao3Click
+      end
+      object ShadowEffect3: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.300000011920929000
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+    end
+    object Rectangle4: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 155.000000000000000000
+      Size.Height = 95.500000000000000000
+      Size.PlatformDefault = False
+      object BtnOpcao4: TButton
+        Align = Client
+        StyledSettings = [FontColor]
+        Size.Width = 155.000000000000000000
+        Size.Height = 95.500000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'OP'#199#195'O 4'
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.WordWrap = True
+        OnClick = BtnOpcao4Click
+      end
+      object ShadowEffect4: TShadowEffect
+        Distance = 3.000000000000000000
+        Direction = 45.000000000000000000
+        Softness = 0.300000011920929000
+        Opacity = 0.600000023841857900
+        ShadowColor = claBlack
+      end
+    end
+  end
+  object ImgFigura: TImage
+    MultiResBitmap = <
+      item
+        Width = 500
+        Height = 500
+        PNG = {
+          89504E470D0A1A0A0000000D49484452000001F4000001F40806000000CBD6DF
+          8A000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+          03E049444154785EEDC101010000008220FFAF6E484000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          000000000000000000000000000000000000000000000000000000000000009C
+          A80145150001F0397F9C0000000049454E44AE426082}
+      end>
+    Align = Top
+    MarginWrapMode = Fit
+    Margins.Left = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 87.000000000000000000
+    Size.Width = 330.000000000000000000
+    Size.Height = 239.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object TxtCategoria: TText
+    Align = Top
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 10.000000000000000000
+    Size.Width = 330.000000000000000000
+    Size.Height = 67.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'CATEGORIA'
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claWhite
+    object ShadowEffect5: TShadowEffect
+      Distance = 3.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+    end
+  end
+  object TxtParabens: TText
+    Align = Top
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 319.000000000000000000
+    Size.Width = 280.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'PARAB'#201'NS! VOCE ACERTOU!'
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claWhite
+    TextSettings.VertAlign = Leading
+    Visible = False
+    object Rectangle5: TRectangle
+      Align = Bottom
+      Fill.Color = claOrange
+      Position.Y = 32.000000000000000000
+      Size.Width = 280.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      object BtnJogarDenovo: TButton
+        Align = Client
+        StyledSettings = [Family]
+        Size.Width = 280.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Quero jogar de novo!'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        OnClick = BtnJogarDenovoClick
+      end
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = DMPrincipal.QueryImagem
+    ScopeMappings = <>
+    Left = 160
+    Top = 264
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 20
+    Top = 5
+    object LinkPropertyToFieldTag: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'id'
+      Component = ImgFigura
+      ComponentProperty = 'Tag'
+    end
+    object LinkPropertyToFieldBitmap: TLinkPropertyToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      FieldName = 'foto'
+      Component = ImgFigura
+      ComponentProperty = 'Bitmap'
+    end
+  end
+end
